@@ -8,6 +8,10 @@
     <artifactId>empleado</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <groupId>dam.ed</groupId>
+    <artifactId>calculadora</artifactId>
+    <version>1.1</version>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
@@ -29,5 +33,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/AntonioGuerola/Actividad_5.3_Integracion</url>
+        </repository>
+    </distributionManagement>
 
 </project>
