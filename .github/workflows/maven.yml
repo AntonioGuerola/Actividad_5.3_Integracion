@@ -1,12 +1,3 @@
-
-Modifica pom.xml y asegúrate en los campos maven.compiler.source y maven.compiler.target de usar la versión 17, ya que con algunas más modernas actualmente puede dar error.
-
-Asegúrate de hacer commit y push antes de continuar.
-
-En la web de GitHub, en la pestaña Actions, haz clic en set up a workflow yourself o usa alguna plantilla (por ejemplo "Java with maven") y haz clic en "Configure".
-
-Copia el siguiente código en la acción:
-
 # Nombre del action
 name: Tests automáticos
 
