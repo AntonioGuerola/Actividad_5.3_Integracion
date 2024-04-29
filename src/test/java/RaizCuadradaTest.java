@@ -26,6 +26,6 @@ class RaizCuadradaTest {
         assertEquals(1, calculadora1.raizCuadrada(1));
         assertEquals(0, calculadora2.raizCuadrada(0));
         assertEquals(2, calculadora3.raizCuadrada(4));
-        assertEquals(Calculadora4.OperacionInvalidaException, calculadora4.raizCuadrada(-4));
+        assertEquals(Calculadora4.OperacionInvalidaException, calculadora4  .raizCuadrada(-4));
     }
 }
